@@ -47,9 +47,9 @@ def listar_restaurantes():
     exibir_subtitulo('Listando os restaurantes')
     for restaurante in restaurantes:
         nome_restaurante = restaurante['nome']
-        categoria_restaurante = restaurante['categoria']
+        categoria = restaurante['categoria']
         ativo = restaurante['ativo']
-        print(f'- {nome_restaurante} | {categoria_restaurante} | {ativo}')
+        print(f'- {nome_restaurante} | {categoria} | {ativo}')
     voltar_ao_menu_principal()
 
 def ativar_restaurante():
