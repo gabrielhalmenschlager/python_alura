@@ -1,4 +1,5 @@
 idade = int(input("Digite sua idade: "))
+
 if 0 < idade <= 12:
     print("Criança")
 elif 12 < idade < 18:
