@@ -22,7 +22,7 @@ def finalizar_app():
     exibir_subtitulo('Finalizando app')
 
 def voltar_ao_menu_principal():
-    input('Digite uma tecla para voltar ao menu principal: ')
+    input('\nDigite uma tecla para voltar ao menu principal: ')
     main()
 
 def opcao_invalida():
